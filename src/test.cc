@@ -279,4 +279,4 @@ Handle<Value> geoip::Test::close(const Arguments& args) {
     return ThrowException(String::New("Error: Cao not open database"));
   }
 }                                                                          
-}
+
